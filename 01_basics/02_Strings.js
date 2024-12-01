@@ -56,3 +56,7 @@ let invoiceRef = "my-invoice01"
 invoiceRef="my-invoice02"
 // console.log(returnLast(invoiceRef));
 
+// excercise
+
+const input = "hello"
+console.log(input.reversed);
