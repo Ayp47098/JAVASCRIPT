@@ -90,7 +90,7 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser)); // yaha par output me array aata hai aur boht useful hota hai baadme jaakr usspe loops chala skate aur bhi boht kuch
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
