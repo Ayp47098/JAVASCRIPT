@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</nav>
+</head>
+<body>
+    <style>
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            display: inline-block;
+
+        }
+        .navbar{
+            text-decoration: none;
+            color:#333;
+            padding: 10px 15px;
+
+        }
+        @media (max-width:768px) {
+            .navbar ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</body>
+</html>
