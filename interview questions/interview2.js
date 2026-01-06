@@ -29,3 +29,6 @@ for (let i = 0; i <n; i++) {
 
 let array=[2,6,5,8,11]
 target=14
+const promiseOne= new Promise(function(resilve,reject){
+    
+})
